@@ -1,0 +1,38 @@
+.App{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.month-year{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cell{
+    width: 2rem;
+    height: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label{
+    display: flex;
+}
+.days{
+    display: grid;
+    grid-template-rows: 3rem 3rem 3rem 3rem 3rem 3rem;
+    grid-template-columns: 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+}
+.weeks{
+    display: flex;
+}
+/*.calendar:nth-child(7n) {
+    flex-basis: 100%;
+}*/
+.calendar{
+
+}
